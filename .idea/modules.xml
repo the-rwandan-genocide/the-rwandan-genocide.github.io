@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../personal-website/.idea/personal-website.iml" filepath="$PROJECT_DIR$/../personal-website/.idea/personal-website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rwandan-genocide.iml" filepath="$PROJECT_DIR$/.idea/rwandan-genocide.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/simple-parallax-scrolling-tutorial-s/.idea/simple-parallax-scrolling-tutorial-s.iml" filepath="$USER_HOME$/Downloads/simple-parallax-scrolling-tutorial-s/.idea/simple-parallax-scrolling-tutorial-s.iml" />
+    </modules>
+  </component>
+</project>
