@@ -1,4 +1,3 @@
-
 .dot {
   height: 12px;
   width: 12px;
@@ -15,6 +14,11 @@
 
 .left {
   text-align: left;
+}
+
+.title-div {
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 .timeline {
