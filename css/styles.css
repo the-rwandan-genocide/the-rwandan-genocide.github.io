@@ -28,4 +28,6 @@
   display: inline-block;
   position: relative;
   padding-bottom: 20px;
+  text-align: left;
+  width:350px;
 }
