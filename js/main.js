@@ -1,7 +1,19 @@
+let number_k_done = false;
 ( function( $ ) {
   // Init Skrollr
   let s = skrollr.init({
     render: function(data) {
+      let number_k = $('#killed');
+      if ( number_k.hasClass('skrollable-after') ) {
+        if ( ! number_k_done ) {
+          number_k_done = true;
+          // do stuff
+          animateValue("killed", "0", "1,074,017", 1500);
+          animateValue("raped", "0", "500,000", 1500);
+        }
+      } else {
+        number_k_done = false;
+      }
       //Debugging - Log the current scroll position.
       //console.log(data.curTop);
     }
@@ -39,18 +51,8 @@ function animateValue(id, start, end, duration) {
     if (value === end) {
       clearInterval(timer);
     }
-    // Preserve commas if input had commas
-    if (isComma) {
-      while (/(\d+)(\d{3})/.test(value.toString())) {
-        value = value.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
-      }
-    }
   }
 
   timer = setInterval(run, stepTime);
   run();
 }
-window.onload = function() {
-  animateValue("killed", "0", "1,074,017", 1500);
-  animateValue("raped", "0", "500,000", 1500);
-};
