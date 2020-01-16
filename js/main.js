@@ -20,9 +20,6 @@ var number_r_done = false;
           // do stuff
           animateValue("raped", "0", "500,000", 1500);
         }
-      } else if (!number_k.hasClass('skrollable-after')) {
-        number_k_done = false;
-        number_r_done = false;
       }
       //Debugging - Log the current scroll position.
       //console.log(data.curTop);
