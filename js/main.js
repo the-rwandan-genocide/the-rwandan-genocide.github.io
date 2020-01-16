@@ -1,18 +1,28 @@
-let number_k_done = false;
+var number_k_done = false;
+var number_r_done = false;
+
 ( function( $ ) {
   // Init Skrollr
   let s = skrollr.init({
     render: function(data) {
       let number_k = $('#killed');
-      if ( number_k.hasClass('skrollable-after') ) {
-        if ( ! number_k_done ) {
+      let number_r = $('#raped');
+      if (number_k.hasClass('skrollable-after')) {
+        if (!number_k_done) {
           number_k_done = true;
           // do stuff
           animateValue("killed", "0", "1,074,017", 1500);
+        }
+      }
+      if (number_r.hasClass('skrollable-after')) {
+        if (!number_r_done) {
+          number_r_done = true;
+          // do stuff
           animateValue("raped", "0", "500,000", 1500);
         }
-      } else {
+      } else if (!number_k.hasClass('skrollable-after')) {
         number_k_done = false;
+        number_r_done = false;
       }
       //Debugging - Log the current scroll position.
       //console.log(data.curTop);
