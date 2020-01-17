@@ -1,3 +1,7 @@
+div {
+
+}
+
 .dot {
   height: 12px;
   width: 12px;
@@ -8,7 +12,18 @@
   left: -6px;
 }
 
+.quotation-marks {
+  height: 12px;
+  width: 12px;
+  background-image: url("../img/quotation-marks-left.png");
+  position: absolute;
+  top: 32px;
+  left: -6px;
+}
+
+
 .numbers {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
@@ -45,6 +60,7 @@
 
 .title-master {
   text-align: center;
+  background: white url("../img/title-img.jpg") no-repeat fixed center;
 }
 
 .title-div {

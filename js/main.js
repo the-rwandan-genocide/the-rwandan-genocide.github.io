@@ -11,14 +11,14 @@ var number_r_done = false;
         if (!number_k_done) {
           number_k_done = true;
           // do stuff
-          animateValue("killed", "0", "1,074,017", 1500);
+          animateValue("killed", "0", "1,074,017", 1000);
         }
       }
       if (number_r.hasClass('skrollable-after')) {
         if (!number_r_done) {
           number_r_done = true;
           // do stuff
-          animateValue("raped", "0", "500,000", 1500);
+          animateValue("raped", "0", "500,000", 1000);
         }
       }
       //Debugging - Log the current scroll position.
