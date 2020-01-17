@@ -28,9 +28,9 @@ var number_r_done = false;
 } )( jQuery );
 
 function animateValue(id, start, end, duration) {
-
   // check for commas
   let isComma = /[0-9]+,[0-9]+,[0-9]+/.test(end);
+  const endOriginal = end;
   end = end.replace(/,/g, '');
 
   // assumes integer values for start and end
@@ -55,7 +55,8 @@ function animateValue(id, start, end, duration) {
     let remaining = Math.max((endTime - now) / duration, 0);
     let value = Math.round(end - (remaining * range));
     obj.innerHTML = String(value);
-    if (value === end) {
+    if (String(value) === end) {
+      obj.innerHTML = endOriginal;
       clearInterval(timer);
     }
   }

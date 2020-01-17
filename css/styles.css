@@ -8,6 +8,33 @@
   left: -6px;
 }
 
+.numbers {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.number-single {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.small {
+  display: inline-block;
+  font-size: 17px;
+}
+
+.big-number {
+  display: inline-block;
+  font-size: 120px;
+}
+
+.medium-text {
+  display: inline-block;
+  font-size: 26px;
+}
+
 .centered {
   text-align: center;
 }
