@@ -9,7 +9,6 @@ html, body {
 }
 
 .image-1 {
-  position:absolute;
   width:100%;
   height:72vh;
   filter: brightness(0.7);
