@@ -12,7 +12,7 @@ div {
   border-radius: 100%;
   background: black;
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: -6px;
 }
 
@@ -85,7 +85,7 @@ div {
 }
 
 .timeline {
-  margin-left: 20vw;
+  margin-left: 10vw;
   margin-top: 30px;
 }
 
@@ -101,14 +101,13 @@ div {
 .timeline-div {
   font-family: 'Esteban', serif;
   border-left: 1px solid black;
-  font-size: 25px;
+  font-size: 18px;
   padding-left: 20px;
-  padding-right: 20px;
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
   text-align: left;
-  width:520px;
+  width:450px;
 }
 
 .questions {
