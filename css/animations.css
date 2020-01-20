@@ -10,9 +10,9 @@ html, body {
 
 .image-1 {
   position: absolute;
-  top: 0vh;
+  top: 0;
   left: 50vw;
-  width:30vw;
+  width:40vw;
   height:72vh;
   filter: brightness(0.7);
   background: #ffffff url('../img/img2.jpg');

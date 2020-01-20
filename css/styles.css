@@ -2,13 +2,17 @@ div {
 
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .dot {
   height: 12px;
   width: 12px;
   border-radius: 100%;
   background: black;
   position: absolute;
-  top: 32px;
+  top: 50px;
   left: -6px;
 }
 
@@ -97,12 +101,14 @@ div {
 .timeline-div {
   font-family: 'Esteban', serif;
   border-left: 1px solid black;
+  font-size: 25px;
   padding-left: 20px;
+  padding-right: 20px;
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
   text-align: left;
-  width:400px;
+  width:520px;
 }
 
 .questions {
@@ -115,8 +121,8 @@ div {
 
 .question-div {
   text-align: center;
-  margin-top: 10px;
   width: 600px;
+  margin-top: 10px;
   display: inline-block;
 }
 
