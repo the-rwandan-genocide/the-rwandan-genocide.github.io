@@ -102,10 +102,9 @@ div {
   font-family: 'Esteban', serif;
   border-left: 1px solid black;
   font-size: 18px;
-  padding-left: 20px;
+  padding-left: 20px; padding-bottom: 5px; padding-right: 15px;
   display: inline-block;
   position: relative;
-  padding-bottom: 5px;
   text-align: left;
   width:450px;
 }
@@ -131,4 +130,12 @@ div {
 
 .question-body {
 
+}
+
+@media all and (max-width: 1172px) {
+  .medium-text {
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
 }
