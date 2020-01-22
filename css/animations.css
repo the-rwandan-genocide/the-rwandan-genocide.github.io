@@ -15,7 +15,7 @@ html, body {
   width:40vw;
   height:72vh;
   filter: brightness(0.7);
-  background: #ffffff url('../img/img2.jpg');
+  background: #ffffff url('../img/1916.jpg');
   background-size:cover;
   z-index: -1;
 }
@@ -42,16 +42,6 @@ html, body {
   font: 700 30px "Ubuntu", serif;
 }
 
-.image-2 {
-  position:absolute;
-  width:100%;
-  height:100vh;
-  top: 97vh;
-  filter: brightness(0.7);
-  background: #ffffff url('../img/img1.jpeg');
-  background-size:cover;
-  z-index: -1;
-}
 
 #predescription {
   height:30vh;

@@ -18,7 +18,7 @@ var number_r_done = false;
         if (!number_r_done) {
           number_r_done = true;
           // do stuff
-          animateValue("raped", "0", "500,000", 1000);
+          animateValue("raped", "0", "250,000", 1000);
         }
       }
     }
