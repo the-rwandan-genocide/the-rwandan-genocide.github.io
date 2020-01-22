@@ -21,8 +21,6 @@ var number_r_done = false;
           animateValue("raped", "0", "500,000", 1000);
         }
       }
-      //Debugging - Log the current scroll position.
-      //console.log(data.curTop);
     }
   });
 } )( jQuery );
