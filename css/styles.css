@@ -130,7 +130,8 @@ div {
 }
 
 .question {
-
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 
 .question-body {

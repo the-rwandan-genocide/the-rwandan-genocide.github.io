@@ -8,7 +8,7 @@ html, body {
   top: 100%;
 }
 
-.image-1 {
+.image-1916 {
   position: absolute;
   top: 0;
   left: 55vw;
@@ -16,6 +16,18 @@ html, body {
   height:72vh;
   filter: brightness(0.7);
   background: #ffffff url('../img/1916.jpg');
+  background-size:cover;
+  z-index: -1;
+}
+
+.image-1959 {
+  position: absolute;
+  top: 20vh;
+  left: 55vw;
+  width:40vw;
+  height:72vh;
+  filter: brightness(0.7);
+  background: #ffffff url('../img/1959.jpg');
   background-size:cover;
   z-index: -1;
 }
