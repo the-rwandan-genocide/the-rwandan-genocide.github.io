@@ -162,11 +162,49 @@ p {
   text-justify: inter-word;
 }
 
+.spacer {
+  display: inline-block;
+}
+
 @media all and (max-width: 1188px) {
 
 }
 
-@media all and (max-width: 1111px) {
-
+@media all and (max-width: 1100px) {
+  .timeline-div {
+    font-family: 'Esteban', serif;
+    border-left: 1px solid black;
+    font-size: 18px;
+    padding-left: 20px; padding-bottom: 5px; padding-right: 15px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 350px;
+  }
 }
+
+@media all and (max-width: 1193px) {
+  .spacer {
+    display: block;
+  }
+  .medium-text {
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 934px) {
+  .timeline-div {
+    font-family: 'Esteban', serif;
+    border-left: 1px solid black;
+    font-size: 18px;
+    padding-left: 20px; padding-bottom: 5px; padding-right: 15px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width:250px;
+  }
+}
+
 
