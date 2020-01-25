@@ -2,8 +2,26 @@ div {
 
 }
 
+b {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Esteban', serif;
+}
+
 ::-webkit-scrollbar {
   display: none;
+}
+
+.rape {
+  overflow: hidden;
+  text-align: center;
+  display:inline-block;
+}
+
+.wrapper {
+  text-align: center;
 }
 
 .dot {
@@ -26,9 +44,14 @@ div {
 
 .numbers {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 30vh;
+  margin-bottom: 20vh;
   text-align: center;
+}
+
+.big {
+  display: inline-block;
+  font-size: 100px;
 }
 
 .number-single {
@@ -123,7 +146,7 @@ div {
 }
 
 .question-div {
-  text-align: center;
+  text-align: left;
   width: 600px;
   margin-top: 10px;
   display: inline-block;
@@ -135,7 +158,8 @@ div {
 }
 
 .question-body {
-
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @media all and (max-width: 1188px) {

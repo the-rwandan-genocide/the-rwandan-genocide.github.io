@@ -11,14 +11,14 @@ var number_r_done = false;
         if (!number_k_done) {
           number_k_done = true;
           // do stuff
-          animateValue("killed", "0", "1,074,017", 1000);
+          animateValue("killed", "0", "1,074,017", 3000);
         }
       }
       if (number_r.hasClass('skrollable-after')) {
         if (!number_r_done) {
           number_r_done = true;
           // do stuff
-          animateValue("raped", "0", "250,000", 1000);
+          animateValue("raped", "0", "250,000", 3000);
         }
       }
       console.log(data.curTop);
