@@ -21,6 +21,7 @@ var number_r_done = false;
           animateValue("raped", "0", "250,000", 1000);
         }
       }
+      console.log(data.curTop);
     }
   });
 } )( jQuery );

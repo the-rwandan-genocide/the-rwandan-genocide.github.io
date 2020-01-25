@@ -22,12 +22,48 @@ html, body {
 
 .image-1959 {
   position: absolute;
-  top: 20vh;
+  top: 18vh;
   left: 55vw;
   width:40vw;
-  height:72vh;
+  height:40vh;
   filter: brightness(0.7);
   background: #ffffff url('../img/1959.jpg');
+  background-size:cover;
+  z-index: -1;
+}
+
+.image-1963 {
+  position: absolute;
+  top: 35vh;
+  left: 55vw;
+  width:40%;
+  height:20%;
+  filter: brightness(0.7);
+  background: #ffffff url('../img/1961.jpg');
+  background-size:cover;
+  z-index: -1;
+}
+
+.image-1990 {
+  position: absolute;
+  top: 75vh;
+  left: 55vw;
+  width:40%;
+  height:20%;
+  filter: brightness(0.7);
+  background: #ffffff url('../img/1990.jpg');
+  background-size:cover;
+  z-index: -1;
+}
+
+.image-1992 {
+  position: absolute;
+  top: 123vh;
+  left: 55vw;
+  width:40%;
+  height:20%;
+  filter: brightness(0.7);
+  background: #ffffff url('../img/1992.jpg');
   background-size:cover;
   z-index: -1;
 }
