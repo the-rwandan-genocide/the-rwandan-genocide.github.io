@@ -24,6 +24,9 @@ var number_r_done = false;
       console.log(data.curTop);
     }
   });
+  window.onload = function() {
+    s.refresh();
+  };
 } )( jQuery );
 
 function animateValue(id, start, end, duration) {
