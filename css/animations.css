@@ -44,6 +44,18 @@ html, body {
   z-index: -1;
 }
 
+.image-1963 {
+  position: absolute;
+  top: 400px;
+  left: 55vw;
+  width: 550px;
+  height: 350px;
+  filter: brightness(0.7);
+  background: #ffffff url('../img/1963.jpg');
+  background-size: cover;
+  z-index: -1;
+}
+
 .image-1990 {
   position: absolute;
   top: 600px;
@@ -90,6 +102,13 @@ html, body {
   background: #ffffff url('../img/1994.jpg');
   background-size:cover;
   z-index: -1;
+}
+
+.image-zura {
+  width: 550px;
+  height: 300px;
+  background: #ffffff url('../img/witch.jpg');
+  background-size:cover;
 }
 
 .centered-1 {
@@ -142,6 +161,118 @@ html, body {
     height:191px;
     filter: brightness(0.7);
     background: #ffffff url('../img/1961.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .image-1994 {
+    position: absolute;
+    top: 1300px;
+    left: 55vw;
+    width: 450px;
+    height: 286px;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1994.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+}
+
+@media all and (max-width: 1014px) {
+  .image-1994 {
+    position: absolute;
+    top: 1400px;
+    left: 55vw;
+    width: 350px;
+    height: 223px;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1994.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+}
+
+@media all and (max-width: 934px) {
+  .image-1916 {
+    position: absolute;
+    top: 0;
+    left: 55vw;
+    width:40vw;
+    height:72vh;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1916.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+
+  .image-1959 {
+    position: absolute;
+    top: 150px;
+    left: 55vw;
+    width:40vw;
+    height:40vh;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1959.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+
+  .image-1961 {
+    position: absolute;
+    top: 350px;
+    left: 55vw;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1961.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+
+  .image-1990 {
+    position: absolute;
+    top: 700px;
+    left: 55vw;
+    width:40%;
+    height:20%;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1990.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+
+  .image-1992 {
+    position: absolute;
+    top: 1150px;
+    left: 55vw;
+    width:40%;
+    height:20%;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1992.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+
+  .image-1993 {
+    position: absolute;
+    top: 1350px;
+    left: 55vw;
+    width: 300px;
+    height: 400px;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1993.jpg');
+    background-size:cover;
+    z-index: -1;
+  }
+
+  .image-1994 {
+    position: absolute;
+    top: 1600px;
+    left: 55vw;
+    width: 350px;
+    height: 223px;
+    filter: brightness(0.7);
+    background: #ffffff url('../img/1994.jpg');
     background-size:cover;
     z-index: -1;
   }

@@ -14,8 +14,10 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Esteban&display=swap" rel="stylesheet">
     </head>
-    <div class="title-master">
-        <div id="image" class="title-image" data-0="height: 100vh" data-600="height: 0vh"></div>
+    <div id="title" class="title-master title-image background-tint-darker"
+         data-center="background-position: 50% 0px;"
+         data-top-bottom="background-position: 50% -100px;"
+         data-anchor-target="#title">
         <div class="title-div" data-start="opacity:1;" data-600="opacity:0;">
             <h1 class="centered white title front-title">The Rwandan Genocide: Untold Stories</h1>
             <br>
@@ -23,18 +25,19 @@
             <div class="centered white body">Before we can go over the genocide, we must delve deeper into the history of Rwanda, where the genocide mainly took place.</div>
             <br><br>
         </div>
-        <div class="body" style="display: block;">Timeline</div>
     </div>
 
+    <div class="big" style="margin-left: 8.5vw; margin-top: 100px; font-family: 'Montserrat', sans-serif" data-200="opacity:0;" data-500="opacity:1;">Timeline</div>
+
     <div data-1000="transform: translateY(0px)">
-        <div class="timeline" data-start="opacity:0;" data-100="opacity:1;">
+        <div class="timeline" data-250="opacity:0;" data-400="opacity:1;">
             <div class="timeline-div" data-top="background-color:rgba(0,0,0,0);" data-100-top="background-color:rgba(0,0,0,0.1);" data-400-top="background-color:rgba(0,0,0,0.1);" data-600-top="background-color:rgba(0,0,0,0);">
                 <div class="dot"></div>
                 <h1 class="left title">1916</h1>
                 <p>Rwanda was conquered and controlled by Belgium</p>
             </div>
             <br>
-            <div class="image-1916" data-350="opacity:0;" data-450="opacity:1;" data-600="opacity:1;" data-750="opacity:0;"></div>
+            <div class="image-1916" data-200="opacity:0;" data-350="opacity:1;" data-700="opacity:1;" data-850="opacity:0;"></div>
             <div class="timeline-div" data-300-top="background-color:rgba(0,0,0,0);" data-50-top="background-color:rgba(0,0,0,0.1);" data-top="background-color:rgba(0,0,0,0);">
                 <div class="dot"></div>
                 <h1 class="left title">1959</h1>
@@ -55,6 +58,7 @@
                 <p>Around 20,000 Tutsis were killed after an event with Tutsi rebels in Burundi.</p>
             </div>
             <br>
+            <div class="image-1963" data-300-top-top="opacity:0;" data-150-top-top="opacity:1;" data-100-top-top="opacity:1;" data-top-top="opacity:0;"></div>
             <div class="timeline-div" data-300-top="background-color:rgba(0,0,0,0);" data-50-top="background-color:rgba(0,0,0,0.1);" data-top="background-color:rgba(0,0,0,0);">
                 <div class="dot"></div>
                 <h1 class="left title">1990</h1>
@@ -93,50 +97,67 @@
     </div>
 
     <div>
-        <div class="questions" style="margin-top: 50vh; margin-bottom: 50vh;">
-            <div class="question-div">
-                <h1 class="question">That's when the killing started.</h1>
-                <p class="question-body">In no more than one hour after the plane crash, the Hutu extremists (those who want Tutsis killed) establish a force against the RPF and within 100 days kill Tutsis and moderate Hutus (those unwilling to kill Tutsis)</p>
-            </div>
-        </div>
-
-        <div class="numbers">
-            <div class="number-single">
-                <div class="small">An estimated</div><br>
-                <div class="big-number" id="killed" data-750-top="opacity:1;">1</div><br>
-                <div class="medium-text"><b>Lives</b> were lost</div>
-            </div>
-            <div class="spacer"></div>
-            <div class="number-single">
-                <div class="small">An estimated</div><br>
-                <div class="big-number" id="raped" data-750-top="opacity:1;">1</div><br>
-                <div class="medium-text">Women were <b>raped</b></div>
-            </div>
-        </div>
-
-        <div class="wrapper" style="margin-bottom: 20vh;">
-            <div class="rape">
-                <div class="question-div" style="float:left; display: inline-block; margin-right: 100px; width: 350px;">
-                    <h1 class="question">Rape used as a weapon</h1>
-                    <p class="question-body">During the conflict, Hutu extremists recruited patients suffering from HIV in hospitals. Those suffering from HIV were put into “rape squads” and made to rape Tutsi women. The intent behind this was to infect the surviving Tutsi women with HIV and give them a “slow, inevitable death”.</p>
+        <section id="killed-slide">
+            <div class="questions killed-image background-tint" style="margin-top: 30vh; padding-top: 50vh; padding-bottom: 50vh;"
+                 data-center="background-position: 50% 0px;"
+                 data-top-bottom="background-position: 50% -150px;"
+                 data-anchor-target="#killed-slide">
+                <div class="question-div white">
+                    <h1 class="question">That's when the killing started.</h1>
+                    <p class="question-body">In no more than one hour after the plane crash, the Hutu extremists (those who want Tutsis killed) establish a force against the RPF and within 100 days kill Tutsis and moderate Hutus (those unwilling to kill Tutsis)</p>
                 </div>
-                <div style="float:left; display: inline-block; text-align: left; padding-top: 80px;">
-                    <img src="./img/qoutes.png" alt="quote" style="height: 50px; width: 50px; margin-right: 10px; position: absolute;">
-                    <div style="display: inline-block; padding-left: 60px; padding-top: 10px">
-                        <b style="font-size: 25px; text-align: left">Rape was the rule and<br>its absence was the exception.</b>
-                        <br><br>
-                        - UN Special Rapporteur Rene Degni-Segui
+            </div>
+        </section>
+
+        <section id="numbers">
+            <div class="numbers" data-anchor-target="#numbers">
+                <div class="number-single">
+                    <div class="small">An estimated</div><br>
+                    <div class="big-number" id="killed" data-750-top="opacity:1;">1</div><br>
+                    <div class="medium-text"><b>Lives</b> were lost</div>
+                </div>
+                <div class="spacer"></div>
+                <div class="number-single">
+                    <div class="small">An estimated</div><br>
+                    <div class="big-number" id="raped" data-750-top="opacity:1;">1</div><br>
+                    <div class="medium-text"><b>Women</b> were <b>raped</b></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rape">
+            <div class="wrapper people-image background-tint-darker" style="padding-top: 50vh; padding-bottom: 50vh; margin-bottom: 5vh;"
+                 data-center="background-position: 50% 0px;"
+                 data-top-bottom="background-position: 50% -200px;"
+                 data-anchor-target="#rape">
+                <div class="rape white">
+                    <div class="question-div" style="float:left; display: inline-block; margin-right: 100px; width: 350px;">
+                        <h1 class="question">Rape used as a weapon</h1>
+                        <p style="line-height: 1.4;">During the conflict, Hutu extremists recruited patients suffering from HIV in hospitals. Those suffering from HIV were put into “rape squads” and made to rape Tutsi women. The intent behind this was to infect the surviving Tutsi women with HIV and give them a “slow, inevitable death”.</p>
+                    </div>
+                    <div style="float:left; display: inline-block; text-align: left; padding-top: 80px;">
+                        <img src="./img/qoutes.png" alt="quote" style="height: 50px; width: 50px; margin-right: 10px; position: absolute;">
+                        <div style="display: inline-block; padding-left: 60px; padding-top: 10px; font-family: 'Montserrat', sans-serif;">
+                            <b style="font-size: 25px; text-align: left;">Rape was the rule and<br>its absence was the exception.</b>
+                            <br><br>
+                            - UN Special Rapporteur Rene Degni-Segui
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="questions">
-            <div class="question-div" style="width: 604px;">
+        <div class="questions" style="margin-top: 100px; margin-bottom: 10vh; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+            <div class="question-div" style="width: 604px; margin-right: 50px">
                 <h1 class="question">Zura Karuhimbi: Scares away Hutu men as a witch</h1>
                 <p class="question-body">Zura Karuhimbi was a widow who hid Tutsis in her home. In total, she saved over 100 people, including babies she took from the arms of their dead mothers. To rid her home of soldiers, Karuhimbi built up a reputation for being possessed by evil spirits. Her family were traditional healers from the village of Musamo, and Karuhimbi became a “healer”; she also was viewed by people as having “magical” powers. To further her witch looks, she painted herself with natural herbs that acted as an irritant. When Hutus came to her home, she claimed her house was filled with ghosts and those who tried to enter would “experience the wrath of god themselves”. Karuhimbi furthered this effect by jiggling the bracelets on her arms and stated that if any refugees were killed inside her house they would be “digging their own graves”.</p>
             </div>
+            <div class="image-zura"></div>
         </div>
+
+        <section id="city">
+            <div class="city-image"></div>
+        </section>
 
         <!--
         <div id="predescription">
