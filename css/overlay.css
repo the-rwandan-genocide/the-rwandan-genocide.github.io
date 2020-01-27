@@ -9,7 +9,7 @@
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 4px;
   z-index: 10;
   background-color: white;
   width: 650px;
@@ -21,7 +21,7 @@
 }
 
 .modal-header {
-  padding: 10px 15px;
+  padding: 20px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
 }
 
 .modal-body {
-  padding: 10px 15px;
+  padding: 20px 30px;
 }
 
 #overlay {

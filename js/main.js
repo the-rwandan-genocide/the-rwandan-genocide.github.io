@@ -2,7 +2,6 @@ var number_k_done = false;
 var number_r_done = false;
 
 ( function( $ ) {
-  // Init Skrollr
   let s = skrollr.init({
     render: function(data) {
       let number_k = $('#killed');
@@ -103,3 +102,5 @@ function closeModal(modal) {
   modal.classList.remove('active');
   overlay.classList.remove('active')
 }
+
+
